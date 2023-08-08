@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Cell.Story</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+             <input type="checkbox" id="menu" class="container__botao">
+             <label for="menu">
+               <span class="cabecalho_menu-hambuerguer container__imagem" ></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Compras</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Favoritos</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Novidades</a>
+        </li>
+    </ul>
+    <h1 class="container__titulo"><b class="container__titulo--negrito">Cell.</b>Story</h1> 
+    </div>
+
+    <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+        <label for="opcoes-menu">
+        <li class="opcoes__itens">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+            <li class="lista-menu_item">
+        <a href="#" class="lista-menu_link">Compras</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Favoritos</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Novidades</a>
+            </li>
+        </ul>
+
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Favoritos</a></li>
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Novidade</a></li>
+    </ul>
+
+    <div class="container">
+        <a href="#" class="container__link">
+            <img src="imagens/Usuário.svg" alt="Meu perfil">
+            <p class="container__texto"> Meu perfil</p>
+        </a>
+    </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Pesquise seu proximo celular aqui!</h2>
+        <p class="banner_texto">Na Cell.Story você encontra o seu celular dos sonhos.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sera seu proximo celular?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">Mais buscados</h2>
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+<div class="swiper">
+
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="imagens/3Iphone.jpg" alt="3 iphones"> </div>
+      <div class="swiper-slide"><img src="imagens/3iphone1.jpg" alt="3 iphones"></div>
+      <div class="swiper-slide"><img src="imagens/4iphones.jpg" alt="4 iphones"></div>
+      <div class="swiper-slide"><img src="imagens/iphone1.jpg" alt="Iphone"></div>
+      <div class="swiper-slide"><img src="imagens/iphonerosa.jpg" alt="Iphone rosa"></div>
+      <div class="swiper-slide"><img src="imagens/iphone2.jpeg" alt="Iphone"></div>
+      ...
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    <div class="card">
+        <div class="card_descricao"></div>
+        <div class="descricao">
+            <h3 class="descricao__titulo">IPHONE 13</h3>
+            <h2 class="descricao__titulo-iphone">Sobre este item </h2>
+            <p class="descricao__texto">Tela Super Retina XDR de 6,1 polegadas. O modo cinematic adiciona profundidade de campo rasa e muda o foco automaticamente em seus vídeos. Sistema avançado de câmera dupla com câmeras Wide e Ultra Wide de 12MP; Estilos fotográficos, Smart HDR 4, modo noturno, gravação 4K Dolby Vision HDR. Câmera frontal TrueDepth de 12 MP com modo noturno, gravação 4K Dolby Vision HDR. Chip biônico A15 para desempenho ultrarrápido</p>
+        </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="Favoritar"></li>       
+        </ul>
+        <a href="#" class="botoes__ancora">Compre agora.</a>
+        </div>
+    </div>
+</div>
+</section>
+
+    <section class="topico">
+        <h2 class="topicos__titulo">TOPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Apple</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Xiaomi</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Samsung</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">LG</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Motorola</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Novidades</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Promoções</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Mais vendidos</a>
+            </li>
+        </ul>
+    </section>
+       <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro dos preços dos melhores celulares aqui!</h2>  
+            <p class="contato__texto">Fique por dentro das promoções, lançamentos e muito mais pelo nosso e-mail.</p>
+        </div>
+            <input type="email" placeholder="cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr/>
+
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Cell.story</h2>
+        </footer>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+        pagination: {
+     el: '.swiper-pagination',
+     type: 'bullets'
+       },
+    });
+    </script>
+    
+</body>
+
+</html>
